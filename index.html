@@ -1,13 +1,252 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mente.landing</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F.O.C.O — Tu caos mental, ordenado en un tablero</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Archivo+Expanded:wght@700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">
+      <img src="/logo.png" alt="Logo F.O.C.O">
+      <span>F.O.C.O</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#funcionalidades">Funcionalidades</a></li>
+      <li><a href="#mision">Misión &amp; Visión</a></li>
+      <li><a href="#por-que">Por qué F.O.C.O</a></li>
+      <li><a href="#planes">Planes</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#" class="nav-login">Iniciar sesión</a>
+      <a href="#planes" class="btn btn-primary">Probar gratis</a>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Segundo cerebro visual</span>
+        <h1>Tu caos mental, <em>ordenado</em> en un tablero.</h1>
+        <p class="lede">F.O.C.O es una webapp de productividad que centraliza tareas, notas, hábitos y recursos en un tablero visual e intuitivo. Mediante captura rápida y organización con drag &amp; drop, simplifica la gestión de información y reduce la carga mental de estudiantes y profesionales.</p>
+        <div class="hero-ctas">
+          <a href="#planes" class="btn btn-primary">Probar F.O.C.O gratis →</a>
+          <a href="#funcionalidades" class="btn btn-ghost">Ver funcionalidades</a>
+        </div>
+        <div class="hero-proof">
+          <span class="dots"><span></span><span></span><span></span></span>
+          Pensado para mentes con demasiadas pestañas abiertas
+        </div>
+      </div>
+
+      <div class="board" aria-hidden="true">
+        <div class="board-connectors">
+          <svg width="100%" height="100%" viewBox="0 0 460 460" style="position:absolute; inset:0;">
+            <path d="M110 70 C 150 120, 180 140, 230 160" stroke="rgba(255,255,255,0.28)" stroke-width="1.6" stroke-dasharray="4 6" fill="none"/>
+            <path d="M330 100 C 300 150, 280 180, 260 230" stroke="rgba(255,255,255,0.28)" stroke-width="1.6" stroke-dasharray="4 6" fill="none"/>
+            <path d="M150 250 C 190 280, 230 300, 270 330" stroke="rgba(255,255,255,0.28)" stroke-width="1.6" stroke-dasharray="4 6" fill="none"/>
+          </svg>
+        </div>
+        <div class="card c1"><span class="tag">Nota rápida</span>Ideas para el TP de Historia</div>
+        <div class="card c2"><span class="tag">Recurso</span>PDF · Apuntes cátedra</div>
+        <div class="card c3">
+          <span class="tag">Hábito · Semana</span>
+          <div class="check"><i class="done"></i> Leer 20 min</div>
+          <div class="check"><i class="done"></i> Estudiar inglés</div>
+          <div class="check"><i></i> Dormir 8 hs</div>
+        </div>
+        <div class="card c4"><span class="tag">Pomodoro</span>18:24 — Foco activo</div>
+        <div class="card c5"><span class="tag">Tarea</span>Entregar informe · Vie</div>
+        <!-- <div class="cursor-chip"><span class="dot">✦</span> arrastrando…</div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="problem">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">El problema</span>
+        <h2>La sobrecarga de información tiene nombre: intoxicación.</h2>
+        <p>Apuntes en el celular, tareas en un chat, ideas en una pestaña que nunca se vuelve a abrir. Esa dispersión constante genera fatiga mental, ansiedad y bloqueos creativos — y las herramientas potentes que existen hoy suman una curva de aprendizaje que termina siendo otra fuente de frustración.</p>
+      </div>
+      <div class="scatter">
+        <div class="scatter-row">
+          <div class="chip"><b>Canales de chat</b>Tareas mezcladas con charla informal</div>
+          <div class="chip"><b>Notas genéricas</b>Sin estructura ni conexión entre ideas</div>
+        </div>
+        <div class="scatter-row">
+          <div class="chip"><b>Pestañas sin cerrar</b>Recursos que se pierden con el tiempo</div>
+          <div class="chip hot"><b>F.O.C.O</b>Todo en un solo tablero visual, sin fricción</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACRÓNIMO -->
+  <section class="acronym">
+    <div class="wrap">
+      <span class="eyebrow">El nombre tiene un porqué</span>
+      <div class="acronym-letters">
+        <span class="o">F</span><span>.</span><span class="o">O</span><span>.</span><span class="o">C</span><span>.</span><span class="o">O</span><span>
+      </div>
+      <div class="acronym-words">
+        <span><b>F</b>iltro</span>
+        <span><b>O</b>perativo</span>
+        <span>contra el <b>C</b>aos</span>
+        <span>y la <b>O</b>misión</span>
+      </div>
+      <p class="big">Es la función de la app. F.O.C.O filtra lo que importa, le da un lugar operativo dentro de tu día y evita que se te escape lo que no querés omitir.</p>
+      <img class="acronym-mark" src="/logo.png" alt="Isotipo F.O.C.O">
+    </div>
+  </section>
+
+  <!-- FUNCIONALIDADES -->
+  <section class="features" id="funcionalidades">
+    <div class="wrap">
+      <div class="features-head">
+        <span class="eyebrow">Funcionalidades</span>
+        <h2>Todo lo que tu cabeza necesita, en un solo espacio.</h2>
+        <p>Cada módulo de F.O.C.O está pensado para sacarte trabajo mental de encima, no para sumarte otro sistema que aprender.</p>
+      </div>
+      <div class="feat-grid">
+        <div class="feat-card full-width">
+          <div class="feat-icon i-navy-solid">▦</div>
+          <h3>Lienzo visual "Segundo Cerebro"</h3>
+          <p>Un tablero libre y modular, organizado en bloques (Personal, Objetivos Activos, Inspiración, Archivo), donde arrastrás, soltás y conectás notas, tareas y recursos como si trabajaras sobre una pared de corcho digital.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon i-orange">◎</div>
+          <h3>Onboarding inteligente</h3>
+          <p>Un registro que entiende tu rutina, tus intereses y tus motivaciones para configurar tu espacio de trabajo desde el primer minuto.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon i-orange-solid">⏱</div>
+          <h3>Pomodoro + Habit Tracker</h3>
+          <p>Cronómetro de enfoque con ciclos configurables y un tracker visual de hábitos diarios y semanales, directo en tu tablero.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon i-navy">✦</div>
+          <h3>Asistente con IA</h3>
+          <p>Analiza tu rutina, tus hábitos y tus notas para sugerirte resúmenes de rendimiento y planes semanales de organización.</p>
+        </div>
+        <!-- <div class="feat-card feat-card full-width">
+          <div class="feat-icon i-navy">◑</div>
+          <h3>Modelo Freemium</h3>
+          <p>Usá el tablero base sin costo y, cuando lo necesites, desbloqueá tableros ilimitados y más interacciones con el asistente de IA.</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MISIÓN Y VISIÓN -->
+  <section class="mv" id="mision">
+    <div class="wrap">
+      <div class="mv-grid">
+        <div class="mv-card mission">
+          <span class="tag2">Misión</span>
+          <h3>Transformar el caos informativo en claridad accionable.</h3>
+          <p>Darle a cada estudiante y profesional una forma simple y visual de centralizar sus tareas, notas, hábitos y recursos, para que puedan enfocarse en hacer en vez de en recordar dónde anotaron qué.</p>
+        </div>
+        <div class="mv-card vision">
+          <span class="tag2">Visión</span>
+          <h3>Ser el punto de partida de la organización personal digital.</h3>
+          <p>Que F.O.C.O sea, para cualquier persona sin importar su nivel técnico, la primera herramienta a la que recurre para ordenar sus ideas — tan natural de usar como mover un papel sobre un escritorio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ IMPORTA -->
+  <section class="why" id="por-que">
+    <div class="wrap">
+      <div class="why-head">
+        <span class="eyebrow">Por qué importa</span>
+        <h2>Organizar la cabeza también es cuidar la cabeza.</h2>
+        <p>Una app de este tipo no es un lujo de productividad: es una herramienta de bienestar y de acceso.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="num">01</span>
+          <h3>Bienestar mental</h3>
+          <p>Descargar el caos mental en un mapa visual ordenado ataca directamente el estrés académico y laboral acumulado día a día.</p>
+        </div>
+        <div class="why-card">
+          <span class="num">02</span>
+          <h3>Inclusión digital real</h3>
+          <p>Reemplaza configuraciones complejas de bases de datos y sistemas relacionales por una metáfora universal: arrastrar y soltar.</p>
+        </div>
+        <div class="why-card">
+          <span class="num">03</span>
+          <h3>Curva de aprendizaje cero</h3>
+          <p>No hace falta un tutorial de dos horas. Si alguna vez moviste un papel sobre una mesa, ya sabés usar F.O.C.O.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final" id="planes">
+    <div class="wrap">
+      <div class="cta-box">
+        <h2>Dejá de buscar tus propias ideas.</h2>
+        <p>Empezá gratis hoy y armá tu primer tablero en menos de cinco minutos.</p>
+        <div class="hero-ctas">
+          <a href="#" class="btn btn-light">Crear mi cuenta gratis →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="brand">
+        <img src="assets/images/logo.png" alt="Logo F.O.C.O">
+        <span>F.O.C.O</span>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h4>Producto</h4>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#planes">Planes y precios</a>
+        </div>
+        <div class="foot-col">
+          <h4>Compañía</h4>
+          <a href="#mision">Misión y visión</a>
+          <a href="#por-que">Por qué F.O.C.O</a>
+        </div>
+        <div class="foot-col">
+          <h4>Soporte</h4>
+          <a href="#">Centro de ayuda</a>
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-year>2026</span> F.O.C.O — Filtro Operativo contra el Caos y la Omisión.</span>
+      <span>Proyecto Integrador · Fundación Pescar</span>
+    </div>
+  </div>
+</footer>
+
+<script src="src/main.js"></script>
+</body>
 </html>
