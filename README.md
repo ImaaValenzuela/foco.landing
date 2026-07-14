@@ -21,13 +21,14 @@ El proyecto ha sido estructurado con una arquitectura simple, moderna y de alto 
 
 1. **Vite (Bundler & Dev Server):** Se utiliza **Vite** para ofrecer recarga en caliente instantánea (HMR) durante el desarrollo y empaquetar de forma optimizada los recursos estáticos para producción.
 2. **HTML5 Semántico:** Estructura web estándar que prioriza la legibilidad por parte de motores de búsqueda (SEO) y la accesibilidad.
-3. **CSS3 Modular & Design Tokens:**
+3. **Vanilla JavaScript & Web Components (Arquitectura de Producción):**
+   - El proyecto sigue el **Principio de Responsabilidad Única (SRP)** mediante el uso de **Web Components (Custom Elements nativos)**.
+   - Cada sección del sitio (Header, Hero, Problem, Acronym, Features, MisionVision, WhyImporta, CtaFinal, Footer) está encapsulada en su propio componente autogestionado dentro de `src/components/`.
+   - La lógica de renderizado y el comportamiento interactivo (como el menú responsive en el Header o el año del copyright dinámico en el Footer) están contenidos dentro de sus respectivas clases de componentes, eliminando la dispersión del código.
+4. **CSS3 Modular & Design Tokens:**
    - Hojas de estilo estructuradas en `src/style.css` usando **Variables CSS (Design Tokens)** para colores, tipografías y espaciado de la marca (Azul y Naranja F.O.C.O).
    - Layouts modernos y adaptables construidos con **CSS Grid** y **Flexbox**.
    - Animaciones y transiciones de alto rendimiento para interactividad fluida sin sobrecargar el hilo principal.
-4. **Vanilla JavaScript (ES Modules):**
-   - Código JS modular en `src/main.js` importado nativamente.
-   - Manejo ligero del DOM para comportamiento interactivo (menú responsive móvil, actualización dinámica de fechas en el footer).
 
 ---
 
@@ -41,13 +42,23 @@ mente.landing/
 │   ├── icons.svg        # Sprite de iconos vectoriales
 │   └── favicon.svg      # Icono del navegador
 ├── src/
-│   ├── main.js          # Lógica interactiva en JavaScript (comportamientos de interfaz)
+│   ├── components/      # Componentes web modulares (Single Responsibility Principle)
+│   │   ├── Header.js    # Menú de navegación y toggle responsive
+│   │   ├── Hero.js      # Sección de presentación e ilustración interactiva
+│   │   ├── Problem.js   # Sección sobre la sobrecarga de información
+│   │   ├── Acronym.js   # Explicación del acrónimo F.O.C.O
+│   │   ├── Features.js  # Grilla de funcionalidades principales
+│   │   ├── MisionVision.js # Tarjetas de Misión y Visión
+│   │   ├── WhyImporta.js # Sección de justificación y valor
+│   │   ├── CtaFinal.js  # Llamado a la acción final de registro
+│   │   └── Footer.js    # Pie de página y año de copyright dinámico
+│   ├── main.js          # Punto de entrada de JS (importa y registra componentes)
 │   └── style.css        # Estilos globales, diseño responsivo y tokens de diseño CSS
 ├── docs/                # Documentación del proyecto
 │   ├── 01-vision-y-producto.md   # Visión general y pitch comercial del producto
 │   ├── 05-modelo-de-negocio.md    # Precios, monetización y conversión
 │   └── 07-devops-y-git.md        # Estrategia de Git y flujo de trabajo diario
-├── index.html           # Punto de entrada principal (HTML semántico y enlaces a assets)
+├── index.html           # Punto de entrada principal (HTML semántico y declarativo)
 ├── package.json         # Scripts de Vite y configuración del proyecto
 ├── package-lock.json    # Historial detallado de dependencias instaladas
 └── README.md            # Este archivo de documentación
