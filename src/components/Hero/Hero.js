@@ -2,6 +2,8 @@
  * Componente FocoHero
  * Encapsula la sección de presentación (Hero) de la landing page con la ilustración del tablero.
  */
+import './Hero.css';
+
 export class FocoHero extends HTMLElement {
   connectedCallback() {
     this.render();

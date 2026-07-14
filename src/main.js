@@ -3,16 +3,16 @@
 // Arquitectura modular y basada en componentes (Vanilla Web Components)
 // =========================================================
 
-// Importación de componentes de la aplicación
-import './components/Header.js';
-import './components/Hero.js';
-import './components/Problem.js';
-import './components/Acronym.js';
-import './components/Features.js';
-import './components/MisionVision.js';
-import './components/WhyImporta.js';
-import './components/CtaFinal.js';
-import './components/Footer.js';
+// Importación de componentes de la aplicación (Arquitectura de carpetas autocontenidas)
+import './components/Header/Header.js';
+import './components/Hero/Hero.js';
+import './components/Problem/Problem.js';
+import './components/Acronym/Acronym.js';
+import './components/Features/Features.js';
+import './components/MisionVision/MisionVision.js';
+import './components/WhyImporta/WhyImporta.js';
+import './components/CtaFinal/CtaFinal.js';
+import './components/Footer/Footer.js';
 
 // Inicializaciones globales (si las hubiera en el futuro)
 document.addEventListener('DOMContentLoaded', () => {

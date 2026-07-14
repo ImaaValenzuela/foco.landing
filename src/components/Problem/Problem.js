@@ -2,6 +2,8 @@
  * Componente FocoProblem
  * Encapsula la sección explicativa sobre la sobrecarga de información y dispersión digital.
  */
+import './Problem.css';
+
 export class FocoProblem extends HTMLElement {
   connectedCallback() {
     this.render();

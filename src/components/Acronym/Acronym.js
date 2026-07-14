@@ -2,6 +2,8 @@
  * Componente FocoAcronym
  * Encapsula la sección que describe el significado del nombre F.O.C.O.
  */
+import './Acronym.css';
+
 export class FocoAcronym extends HTMLElement {
   connectedCallback() {
     this.render();

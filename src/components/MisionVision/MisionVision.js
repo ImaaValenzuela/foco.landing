@@ -2,6 +2,8 @@
  * Componente FocoMisionVision
  * Encapsula la sección de Misión y Visión de la plataforma.
  */
+import './MisionVision.css';
+
 export class FocoMisionVision extends HTMLElement {
   connectedCallback() {
     this.render();

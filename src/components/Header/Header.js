@@ -2,6 +2,8 @@
  * Componente FocoHeader
  * Encapsula la estructura y lógica de interacción del encabezado (menú de navegación y responsive toggle).
  */
+import './Header.css';
+
 export class FocoHeader extends HTMLElement {
   connectedCallback() {
     this.render();

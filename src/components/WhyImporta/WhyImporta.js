@@ -2,6 +2,8 @@
  * Componente FocoWhy
  * Encapsula la sección que describe la importancia del proyecto (bienestar mental, inclusión, etc.).
  */
+import './WhyImporta.css';
+
 export class FocoWhy extends HTMLElement {
   connectedCallback() {
     this.render();

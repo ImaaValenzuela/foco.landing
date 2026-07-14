@@ -2,6 +2,8 @@
  * Componente FocoCtaFinal
  * Encapsula la sección de Call-To-Action (llamado a la acción) final.
  */
+import './CtaFinal.css';
+
 export class FocoCtaFinal extends HTMLElement {
   connectedCallback() {
     this.render();

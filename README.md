@@ -25,10 +25,11 @@ El proyecto ha sido estructurado con una arquitectura simple, moderna y de alto 
    - El proyecto sigue el **Principio de Responsabilidad Única (SRP)** mediante el uso de **Web Components (Custom Elements nativos)**.
    - Cada sección del sitio (Header, Hero, Problem, Acronym, Features, MisionVision, WhyImporta, CtaFinal, Footer) está encapsulada en su propio componente autogestionado dentro de `src/components/`.
    - La lógica de renderizado y el comportamiento interactivo (como el menú responsive en el Header o el año del copyright dinámico en el Footer) están contenidos dentro de sus respectivas clases de componentes, eliminando la dispersión del código.
-4. **CSS3 Modular & Design Tokens:**
-   - Hojas de estilo estructuradas en `src/style.css` usando **Variables CSS (Design Tokens)** para colores, tipografías y espaciado de la marca (Azul y Naranja F.O.C.O).
-   - Layouts modernos y adaptables construidos con **CSS Grid** y **Flexbox**.
-   - Animaciones y transiciones de alto rendimiento para interactividad fluida sin sobrecargar el hilo principal.
+4. **CSS3 Modular, Design Tokens & Mobile First:**
+   - La maqueta y el sistema visual están estructurados con un enfoque **Mobile First** en `src/style.css` usando **Variables CSS (Design Tokens)** para colores, tipografías y espaciado.
+   - Los estilos base definen la experiencia para dispositivos móviles y se escalan de manera progresiva mediante media queries de tipo `min-width` (en puntos de ruptura de `600px`, `860px` y `900px`).
+   - Maquetación adaptable mediante **CSS Grid** y **Flexbox** fluidos, asegurando compatibilidad con múltiples tamaños de pantalla.
+   - Animaciones y transiciones optimizadas para pantallas de alta densidad y baja latencia táctil.
 
 ---
 
@@ -43,15 +44,33 @@ mente.landing/
 │   └── favicon.svg      # Icono del navegador
 ├── src/
 │   ├── components/      # Componentes web modulares (Single Responsibility Principle)
-│   │   ├── Header.js    # Menú de navegación y toggle responsive
-│   │   ├── Hero.js      # Sección de presentación e ilustración interactiva
-│   │   ├── Problem.js   # Sección sobre la sobrecarga de información
-│   │   ├── Acronym.js   # Explicación del acrónimo F.O.C.O
-│   │   ├── Features.js  # Grilla de funcionalidades principales
-│   │   ├── MisionVision.js # Tarjetas de Misión y Visión
-│   │   ├── WhyImporta.js # Sección de justificación y valor
-│   │   ├── CtaFinal.js  # Llamado a la acción final de registro
-│   │   └── Footer.js    # Pie de página y año de copyright dinámico
+│   │   ├── Header/      # Carpeta para el Header (Menú y toggle responsive)
+│   │   │   ├── Header.js
+│   │   │   └── Header.css
+│   │   ├── Hero/        # Carpeta para el Hero (Presentación y tablero interactivo)
+│   │   │   ├── Hero.js
+│   │   │   └── Hero.css
+│   │   ├── Problem/     # Carpeta para el Problema (Sobrecarga de información)
+│   │   │   ├── Problem.js
+│   │   │   └── Problem.css
+│   │   ├── Acronym/     # Carpeta para el Acrónimo (Filtro Operativo...)
+│   │   │   ├── Acronym.js
+│   │   │   └── Acronym.css
+│   │   ├── Features/    # Carpeta para las Funcionalidades principales
+│   │   │   ├── Features.js
+│   │   │   └── Features.css
+│   │   ├── MisionVision/ # Carpeta para la Misión y Visión
+│   │   │   ├── MisionVision.js
+│   │   │   └── MisionVision.css
+│   │   ├── WhyImporta/  # Carpeta para la sección "Por qué importa"
+│   │   │   ├── WhyImporta.js
+│   │   │   └── WhyImporta.css
+│   │   ├── CtaFinal/    # Carpeta para el llamado a la acción final
+│   │   │   ├── CtaFinal.js
+│   │   │   └── CtaFinal.css
+│   │   └── Footer/      # Carpeta para el Footer (Pie de página y año dinámico)
+│   │       ├── Footer.js
+│   │       └── Footer.css
 │   ├── main.js          # Punto de entrada de JS (importa y registra componentes)
 │   └── style.css        # Estilos globales, diseño responsivo y tokens de diseño CSS
 ├── docs/                # Documentación del proyecto

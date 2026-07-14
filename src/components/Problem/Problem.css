@@ -1,0 +1,87 @@
+/* ---------- Problema (Mobile First) ---------- */
+.problem {
+  padding: 60px 0;
+  background: var(--navy-900);
+  color: #fff;
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  .problem {
+    padding: 100px 0;
+  }
+}
+
+.problem .wrap {
+  display: grid;
+  grid-template-columns: 1fr; /* Columna única por defecto */
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .problem .wrap {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 60px;
+  }
+}
+
+.problem h2 {
+  color: #fff;
+  font-size: clamp(26px, 4vw, 40px);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.problem .eyebrow {
+  color: var(--orange);
+}
+
+.problem p {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 15.5px;
+  max-width: 420px;
+}
+
+@media (min-width: 600px) {
+  .problem p {
+    font-size: 16px;
+  }
+}
+
+.scatter {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.scatter-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 16px 18px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  flex: 1;
+  min-width: 200px;
+}
+
+.chip b {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
+.chip.hot {
+  border-color: rgba(252, 114, 6, 0.4);
+  background: rgba(252, 114, 6, 0.08);
+}

@@ -2,6 +2,8 @@
  * Componente FocoFooter
  * Encapsula la estructura del pie de página y la lógica del año dinámico.
  */
+import './Footer.css';
+
 export class FocoFooter extends HTMLElement {
   connectedCallback() {
     this.render();

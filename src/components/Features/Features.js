@@ -2,6 +2,8 @@
  * Componente FocoFeatures
  * Encapsula la sección de las funcionalidades principales de F.O.C.O.
  */
+import './Features.css';
+
 export class FocoFeatures extends HTMLElement {
   connectedCallback() {
     this.render();

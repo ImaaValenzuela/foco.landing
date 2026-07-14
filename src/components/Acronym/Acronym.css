@@ -1,0 +1,95 @@
+/* ---------- Acrónimo (Mobile First) ---------- */
+.acronym {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  .acronym {
+    padding: 110px 0;
+  }
+}
+
+.acronym .wrap {
+  max-width: 920px;
+}
+
+.acronym .eyebrow {
+  justify-content: center;
+}
+
+.acronym-letters {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 26px 0 30px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(38px, 8vw, 88px);
+  color: var(--orange);
+  line-height: 1;
+}
+
+.acronym-letters .o {
+  color: var(--navy);
+}
+
+.acronym-words {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 34px;
+}
+
+@media (min-width: 600px) {
+  .acronym-words {
+    gap: 18px;
+  }
+}
+
+.acronym-words span {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--navy-100);
+}
+
+@media (min-width: 600px) {
+  .acronym-words span {
+    font-size: 13px;
+  }
+}
+
+.acronym-words span b {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.acronym p.big {
+  font-size: 17.5px;
+  color: var(--ink-soft);
+  max-width: 640px;
+  margin: 0 auto 40px;
+}
+
+@media (min-width: 600px) {
+  .acronym p.big {
+    font-size: 19px;
+  }
+}
+
+.acronym-mark {
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .acronym-mark {
+    width: 132px;
+  }
+}
