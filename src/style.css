@@ -77,7 +77,9 @@ ul {
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-display);
   color: var(--navy-900);
   line-height: 1.05;
@@ -106,7 +108,8 @@ h1, h2, h3 {
 }
 
 /* ---------- Buttons (Mobile First) ---------- */
-button, .btn {
+button,
+.btn {
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 15px;
@@ -117,7 +120,10 @@ button, .btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
 }
 
 .btn-primary {

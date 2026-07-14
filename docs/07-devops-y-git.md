@@ -21,10 +21,10 @@ Para garantizar la estabilidad en producción y facilitar el trabajo simultáneo
 
 ### Ramas Principales
 
-| Rama | Propósito | Reglas de Integración |
-|---|---|---|
-| `main` | Código en producción. Debe ser 100% estable. | - Requiere Pull Request (PR) aprobada por al menos 1 desarrollador.<br>- Pruebas automáticas (CI) en verde. |
-| `develop` | Rama de integración. Aquí se consolidan todas las features antes de ir a producción. | - Requiere PR aprobada.<br>- Integración continua automática. |
+| Rama      | Propósito                                                                            | Reglas de Integración                                                                                       |
+| --------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| `main`    | Código en producción. Debe ser 100% estable.                                         | - Requiere Pull Request (PR) aprobada por al menos 1 desarrollador.<br>- Pruebas automáticas (CI) en verde. |
+| `develop` | Rama de integración. Aquí se consolidan todas las features antes de ir a producción. | - Requiere PR aprobada.<br>- Integración continua automática.                                               |
 
 ### Ramas Temporales
 
@@ -43,6 +43,7 @@ Cada commit debe seguir una estructura clara para mantener el historial limpio y
 ```
 
 ### Tipos permitidos:
+
 - **`feat`**: Una nueva funcionalidad (ej: `feat(canvas): agregar conector de flechas`).
 - **`fix`**: Corrección de un error (ej: `fix(auth): corregir expiración de token JWT`).
 - **`docs`**: Cambios en la documentación (ej: `docs(readme): actualizar variables de entorno`).

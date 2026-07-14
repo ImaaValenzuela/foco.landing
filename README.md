@@ -96,11 +96,13 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) (versión 18 o supe
 ### Pasos de Instalación
 
 1. **Clonar el repositorio** y navegar a la carpeta del proyecto:
+
    ```bash
    cd mente.landing
    ```
 
 2. **Instalar las dependencias de desarrollo:**
+
    ```bash
    npm install
    ```
@@ -123,9 +125,22 @@ En el archivo `package.json` dispones de los siguientes scripts de automatizaci�
 
 ---
 
+## ⚙️ Integración Continua (CI)
+
+El proyecto cuenta con un flujo de integración continua configurado a través de **GitHub Actions** en [.github/workflows/ci.yml](file:///.github/workflows/ci.yml).
+
+En cada **Push** o **Pull Request** hacia las ramas principales (`main`, `master`), el pipeline automatizado realiza las siguientes comprobaciones:
+
+1. Configura un entorno limpio de ejecución con Node.js 20.
+2. Instala las dependencias usando `npm ci` para garantizar builds reproducibles.
+3. Ejecuta la compilación de producción (`npm run build`) para verificar la integridad del empaquetado de Vite y descartar errores de importación o sintaxis.
+
+---
+
 ## 📑 Documentación Relacionada
 
 Para comprender el flujo del negocio y las directrices técnicas del equipo, revisa los documentos en la carpeta `/docs`:
+
 - [Visión y Pitch de Producto](./docs/01-vision-y-producto.md)
 - [Modelo de Negocio (Precios y Conversión)](./docs/05-modelo-de-negocio.md)
 - [Estrategia Git y Configuración de GitHub](./docs/07-devops-y-git.md)

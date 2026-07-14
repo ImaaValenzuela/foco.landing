@@ -47,7 +47,7 @@ export class FocoFooter extends HTMLElement {
   }
 
   initFooterYear() {
-    // Ya lo manejamos directamente con Javascript template literal, 
+    // Ya lo manejamos directamente con Javascript template literal,
     // pero si quisiéramos actualizar dinámicamente en el futuro:
     const yearEl = this.querySelector('[data-year]');
     if (yearEl) {
