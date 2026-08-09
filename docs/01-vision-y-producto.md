@@ -2,7 +2,7 @@
 
 ## 1. Definición del Producto
 
-**Mente** es una webapp híbrida de journaling, bitácora personal y "Segundo Cerebro" visual.
+**FOCO** es una webapp híbrida de journaling, bitácora personal y "Segundo Cerebro" visual.
 
 Combina:
 
@@ -24,7 +24,7 @@ El resultado es una herramienta que baja la curva de aprendizaje a cero y transf
 | **Notion**   | Estructura metodológica (P.A.R.A.)           | Alta curva de aprendizaje, enfoque corporativo      |
 | **Milanote** | Lienzo visual, drag & drop                   | Sin estructura lógica, síndrome de página en blanco |
 | **Evernote** | Captura rápida                               | UI anticuada, sin visual                            |
-| **Mente** ✅ | **Híbrido: método + visual + cero fricción** | MVP en construcción                                 |
+| **FOCO** ✅ | **Híbrido: método + visual + cero fricción** | MVP en construcción                                 |
 
 ---
 
@@ -46,11 +46,11 @@ El resultado es una herramienta que baja la curva de aprendizaje a cero y transf
 
 ### Pilar 1 — Brain Dump (Vaciado de Cabeza)
 
-Un botón de captura rápida. Vas por la calle, tenés una idea → la tirás al Inbox sin clasificar. Cero fricción.
+Un botón de captura rápida en web y app móvil (`foco.app`). Vas por la calle, tenés una idea → la tirás al Inbox sin clasificar. Cero fricción.
 
 ### Pilar 2 — Drag & Drop (Organización por Arrastre)
 
-Cuando tenés 5 minutos, abrís el buzón y arrastrás la nota dentro del área de tu vida que corresponda. La app automatiza la base de datos por detrás.
+Cuando tenés 5 minutos, abrís el buzón en `app.foco.com` y arrastrás la nota dentro del área de tu vida que corresponda. La app automatiza la base de datos por detrás.
 
 ### Pilar 3 — Lienzo de Proyectos (The Workspace)
 
@@ -60,7 +60,7 @@ Dentro de cada meta conviven tus tareas, apuntes y fuentes de internet, pudiendo
 
 ## 5. Impacto Social
 
-Mente ataca directamente:
+FOCO ataca directamente:
 
 - **Salud mental** → reduce el estrés cognitivo
 - **Rendimiento académico** → estructura la vida estudiantil
@@ -80,13 +80,13 @@ _"El cerebro humano está diseñado para tener ideas, no para almacenarlas. La g
 
 ### ✅ La Solución
 
-_"Para resolver esto creamos Mente: el primer Segundo Cerebro 100% visual y enfocado en el consumidor final. En Mente, tu vida no se organiza en carpetas aburridas ni en tablas complejas; se organiza en un tablero de corcho digital e infinito donde podés ver, tocar y conectar tus ideas."_
+_"Para resolver esto creamos FOCO: el primer Segundo Cerebro 100% visual y enfocado en el consumidor final. En FOCO, tu vida no se organiza en carpetas aburridas ni en tablas complejas; se organiza en un tablero de corcho digital e infinito donde podés ver, tocar y conectar tus ideas."_
 
 ### 📊 Validación de Mercado
 
 - Herramientas de productividad visual (Notion, Miro, Milanote) facturan **miles de millones de dólares** internacionalmente.
 - El mercado hispanohablante y el público masivo (B2C) quedaron **fuera** por la complejidad técnica.
-- Mente **democratiza la productividad** bajando la curva de aprendizaje a cero.
+- FOCO **democratiza la productividad** bajando la curva de aprendizaje a cero.
 
 ### 🎯 El Cierre
 

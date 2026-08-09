@@ -1,4 +1,4 @@
-# 🌐 F.O.C.O — Landing Page (`mente.landing`)
+# 🌐 F.O.C.O — Landing Page (`foco.landing`)
 
 Este repositorio contiene el código fuente de la landing page comercial de **F.O.C.O** (Filtro Operativo contra el Caos y la Omisión), el segundo cerebro visual que ayuda a estudiantes y profesionales a ordenar su caos mental en un tablero intuitivo.
 
@@ -36,7 +36,7 @@ El proyecto ha sido estructurado con una arquitectura simple, moderna y de alto 
 ## 📂 Estructura del Proyecto (Scaffolding)
 
 ```text
-mente.landing/
+foco.landing/
 ├── public/              # Recursos estáticos servidos directamente (sin procesar por Vite)
 │   ├── logo.png         # Logo principal de F.O.C.O
 │   ├── acronimo.png     # Gráfico explicativo del acrónimo
@@ -98,8 +98,9 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) (versión 18 o supe
 1. **Clonar el repositorio** y navegar a la carpeta del proyecto:
 
    ```bash
-   cd mente.landing
+   cd foco.landing
    ```
+
 
 2. **Instalar las dependencias de desarrollo:**
 
