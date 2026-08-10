@@ -1,24 +1,43 @@
-## 🎯 Objetivo de la Pull Request
+## Resumen
 
-Por favor, incluye una descripción clara del propósito de esta Pull Request, las tareas completadas y cualquier contexto de diseño o implementación.
+<!-- Describe brevemente qué hace esta PR y por qué es necesaria. -->
 
-## 🔀 Flujo de Ramas (GitFlow)
+## Tipo de cambio
 
-- [ ] **Rama de Destino Correcta**: ¿Esta PR tiene como destino la rama `develop`? *(Nota: Solo PRs de release o hotfixes deben ir directo a `main`)*.
-- [ ] **Rama de Origen Correcta**: ¿La rama de origen sigue la nomenclatura acordada? (ej: `feature/nombre-de-la-tarea`, `bugfix/nombre-del-bug`).
+- [ ] ✨ Feature (nueva funcionalidad)
+- [ ] 🐛 Bugfix (corrección de errores)
+- [ ] 🔧 Refactor (mejora de código sin cambiar comportamiento)
+- [ ] 📝 Documentación
+- [ ] ⚙️ Infraestructura / CI
+- [ ] 🧪 Tests
 
-## 🧪 Validaciones Previas
+## Cambios realizados
 
-Antes de solicitar la revisión, asegúrate de marcar con una `[x]` las siguientes validaciones locales completadas:
+<!-- Lista clara y concisa de los cambios. -->
 
-- [ ] **Linting y Calidad**: Ejecuté `npm run lint` y pasó con éxito (0 errores).
-- [ ] **Formato de Código**: Ejecuté `npm run format` para estandarizar el código con Prettier.
-- [ ] **Verificación de Compilación**: Ejecuté `npm run build` localmente y se generaron los archivos listos para producción en `/dist` sin advertencias ni fallos.
-- [ ] **Verificación Responsiva (Mobile First)**: Probé los cambios en pantallas móviles y de escritorio para garantizar que la maquetación se adapta correctamente.
+- [ ] Cambio 1
+- [ ] Cambio 2
+- [ ] Cambio 3
 
-## 📝 Lista de Cambios
-- [ ] *Ejemplo: Implementación de la sección X*
-- [ ] *Ejemplo: Corrección responsiva en el menú responsive*
+## Cómo probar
 
-## 📷 Capturas de Pantalla / Grabaciones (Opcional)
-*Si tu cambio incluye modificaciones visuales en el diseño, adjunta capturas o GIFs aquí.*
+<!-- Pasos para reproducir y validar los cambios. -->
+
+1. ...
+2. ...
+
+## Evidencia / Capturas
+
+<!-- Si aplica, adjunta capturas o logs. -->
+
+## Checklist
+
+- [ ] Los cambios siguen la [convención de commits y PRs](CONVENTIONS.md)
+- [ ] Probaron los cambios localmente
+- [ ] Actualicé la documentación si fue necesario
+
+## Relacionado
+
+<!-- Referencias a issues, tickets o PRs relacionados. -->
+
+Closes #
