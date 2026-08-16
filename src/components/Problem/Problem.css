@@ -1,7 +1,7 @@
 /* ---------- Problema (Mobile First) ---------- */
 .problem {
   padding: 60px 0;
-  background: var(--navy-900);
+  background: var(--orange-deep);
   color: #fff;
   position: relative;
 }
@@ -34,7 +34,7 @@
 }
 
 .problem .eyebrow {
-  color: var(--orange);
+  color: var(--blue-mid);
 }
 
 .problem p {
@@ -82,6 +82,6 @@
 }
 
 .chip.hot {
-  border-color: rgba(252, 114, 6, 0.4);
-  background: rgba(252, 114, 6, 0.08);
+  border-color: var(--blue-mid);
+  background: var(--orange-mid);
 }

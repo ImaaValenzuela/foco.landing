@@ -3,7 +3,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(251, 250, 247, 0.86);
+  background: rgba(247, 251, 248, 0.86);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -39,7 +39,7 @@ nav {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 20px;
-  color: var(--navy);
+  color: var(--blue-deep);
 }
 
 /* Mobile Menú Desplegable por defecto */
@@ -70,7 +70,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: var(--navy);
+  color: var(--blue-deep);
 }
 
 .nav-cta {
@@ -83,7 +83,7 @@ nav {
   display: none; /* Oculto por defecto en móvil */
   font-weight: 600;
   font-size: 14.5px;
-  color: var(--navy);
+  color: var(--blue-deep);
 }
 
 .nav-toggle {
@@ -98,7 +98,7 @@ nav {
   display: block;
   width: 22px;
   height: 2px;
-  background: var(--navy);
+  background: var(--blue-deep);
   margin: 5px 0;
   border-radius: 2px;
 }

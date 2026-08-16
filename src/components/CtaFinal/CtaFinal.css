@@ -10,7 +10,7 @@
 }
 
 .cta-box {
-  background: linear-gradient(120deg, var(--navy) 0%, var(--navy-800) 100%);
+  background: linear-gradient(120deg, var(--blue-deep) 0%, var(--blue-accent) 100%);
   border-radius: 28px;
   padding: 40px 20px; /* Padding móvil */
   text-align: center;

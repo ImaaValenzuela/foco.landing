@@ -28,12 +28,12 @@
   font-family: var(--font-display);
   font-weight: 900;
   font-size: clamp(38px, 8vw, 88px);
-  color: var(--orange);
+  color: var(--orange-deep);
   line-height: 1;
 }
 
 .acronym-letters .o {
-  color: var(--navy);
+  color: var(--blue-deep);
 }
 
 .acronym-words {
@@ -56,7 +56,7 @@
   letter-spacing: 0.04em;
   color: var(--ink-soft);
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--navy-100);
+  border-bottom: 2px solid var(--blue-light);
 }
 
 @media (min-width: 600px) {
@@ -66,7 +66,7 @@
 }
 
 .acronym-words span b {
-  color: var(--navy);
+  color: var(--blue-deep);
   font-weight: 800;
 }
 

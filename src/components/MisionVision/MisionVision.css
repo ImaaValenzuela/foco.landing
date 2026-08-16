@@ -1,7 +1,7 @@
 /* ---------- Misión / Visión (Mobile First) ---------- */
 .mv {
   padding: 60px 0;
-  background: var(--navy-50);
+  background: var(--blue-gray);
 }
 
 @media (min-width: 900px) {
@@ -36,14 +36,14 @@
 }
 
 .mv-card.mission {
-  background: var(--navy-600);
+  background: var(--blue-accent);
   color: #fff;
 }
 
 .mv-card.vision {
-  background: var(--orange-200);
-  border: 1.5px solid var(--navy-100);
-  color: var(--navy-900);
+  background: var(--orange-accent);
+  border: 1.5px solid var(--blue-light);
+  color: var(--blue-deep);
 }
 
 .mv-card .tag2 {
@@ -59,12 +59,12 @@
 
 .mv-card.mission .tag2 {
   background: rgba(255, 255, 255, 0.14);
-  color: var(--orange-200);
+  color: var(--orange-light);
 }
 
 .mv-card.vision .tag2 {
-  background: var(--orange-50);
-  color: var(--orange-700);
+  background: var(--orange-gray);
+  color: var(--orange-mid);
 }
 
 .mv-card h3 {

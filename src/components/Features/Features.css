@@ -1,7 +1,7 @@
 /* ---------- Funcionalidades (Mobile First) ---------- */
 .features {
   padding: 60px 0;
-  background: var(--navy-900);
+  background: var(--blue-deep);
   position: relative;
 }
 
@@ -98,7 +98,7 @@
 .feat-card h3 {
   font-size: 18px;
   font-weight: 800;
-  color: var(--navy-900);
+  color: var(--blue-deep);
   margin-bottom: 10px;
 }
 
@@ -124,21 +124,21 @@
 }
 
 .i-navy {
-  background: var(--navy-100);
-  color: var(--navy);
+  background: var(--blue-light);
+  color: var(--blue-deep);
 }
 
 .i-orange {
-  background: var(--orange-50);
-  color: var(--orange-700);
+  background: var(--orange-gray);
+  color: var(--orange-mid);
 }
 
 .i-navy-solid {
-  background: var(--navy);
+  background: var(--blue-deep);
   color: #fff;
 }
 
 .i-orange-solid {
-  background: var(--orange);
+  background: var(--orange-deep);
   color: #fff;
 }
