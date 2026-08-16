@@ -27,7 +27,7 @@ export class FocoWhy extends HTMLElement {
             <div class="why-card">
               <span class="num">02</span>
               <h3>Inclusión digital real</h3>
-              <p>Reemplaza configuraciones complejas de bases de datos y sistemas relacionales por una metáfora universal: arrastrar y soltar.</p>
+              <p>Reemplaza configuraciones complejas de y sistemas complicados por una mecánica universal: arrastrar y soltar.</p>
             </div>
             <div class="why-card">
               <span class="num">03</span>

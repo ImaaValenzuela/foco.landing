@@ -32,7 +32,7 @@
 
 .hero h1 em {
   font-style: normal;
-  color: var(--orange);
+  color: var(--orange-deep);
 }
 
 .hero p.lede {
@@ -95,16 +95,16 @@
 }
 
 .dots span:nth-child(1) {
-  background: var(--navy);
+  background: var(--blue-deep);
   margin-left: 0;
 }
 
 .dots span:nth-child(2) {
-  background: var(--orange);
+  background: var(--orange-deep);
 }
 
 .dots span:nth-child(3) {
-  background: var(--navy-300);
+  background: var(--blue-mid);
 }
 
 /* board mockup (signature element) */
@@ -112,7 +112,7 @@
   position: relative;
   height: 340px; /* Altura más compacta para móvil */
   border-radius: 26px;
-  background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
+  background: linear-gradient(180deg, var(--blue-deep) 0%, var(--blue-accent) 100%);
   box-shadow: 0 30px 60px -20px rgba(18, 21, 63, 0.45);
   overflow: hidden;
 }
@@ -181,8 +181,8 @@
 }
 
 .card.c1 {
-  background: var(--orange-50);
-  color: var(--orange-800);
+  background: var(--orange-gray);
+  color: var(--orange-accent);
   top: 24px;
   left: 16px;
   transform: rotate(-4deg);
@@ -190,7 +190,7 @@
 
 .card.c2 {
   background: #fff;
-  color: var(--navy);
+  color: var(--blue-deep);
   top: 48px;
   right: 20px;
   transform: rotate(3deg);
@@ -205,7 +205,7 @@
 }
 
 .card.c3 {
-  background: var(--navy-100);
+  background: var(--blue-light);
   color: var(--navy-900);
   top: 160px;
   left: 30px;
@@ -220,7 +220,7 @@
 }
 
 .card.c4 {
-  background: var(--orange);
+  background: var(--orange-deep);
   color: #fff;
   bottom: 30px;
   right: 20px;
@@ -238,7 +238,7 @@
 
 .card.c5 {
   background: #fff;
-  color: var(--navy);
+  color: var(--blue-deep);
   bottom: 26px;
   left: 16px;
   transform: rotate(-1deg);

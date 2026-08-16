@@ -24,7 +24,7 @@ El resultado es una herramienta que baja la curva de aprendizaje a cero y transf
 | **Notion**   | Estructura metodológica (P.A.R.A.)           | Alta curva de aprendizaje, enfoque corporativo      |
 | **Milanote** | Lienzo visual, drag & drop                   | Sin estructura lógica, síndrome de página en blanco |
 | **Evernote** | Captura rápida                               | UI anticuada, sin visual                            |
-| **FOCO** ✅ | **Híbrido: método + visual + cero fricción** | MVP en construcción                                 |
+| **FOCO** ✅  | **Híbrido: método + visual + cero fricción** | MVP en construcción                                 |
 
 ---
 

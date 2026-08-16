@@ -4,21 +4,18 @@
 
 :root {
   /* --- Azul de marca --- */
-  --navy-900: #12153f;
-  --navy-800: #161c5c;
-  --navy: #22298a;
-  --navy-600: #3d46b8;
-  --navy-300: #8890d9;
-  --navy-100: #e4e6f9;
-  --navy-50: #f2f3fc;
+  --blue-deep: #22298a;
+  --blue-accent: #7c83de;
+  --blue-mid: #5966b2;
+  --blue-light: #c6c9f1;
+  --blue-gray: #dde2f2;
 
   /* --- Naranja de marca --- */
-  --orange-800: #a84c00;
-  --orange-700: #d95f00;
-  --orange: #fc7206;
-  --orange-400: #ff9d54;
-  --orange-200: #ffcda0;
-  --orange-50: #fff1e4;
+  --orange-deep: #fc7206;
+  --orange-accent: #fda35d;
+  --orange-mid: #ff9d54;
+  --orange-light: #ffcda0;
+  --orange-gray: #fff1e4;
 
   /* --- Neutros --- */
   --paper: #fbfaf7;
@@ -81,7 +78,7 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  color: var(--navy-900);
+  color: var(--blue-deep);
   line-height: 1.05;
   letter-spacing: -0.01em;
 }
@@ -95,7 +92,7 @@ h3 {
   font-size: 12.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--orange-700);
+  color: var(--orange-accent);
 }
 
 .eyebrow::before {
@@ -127,7 +124,7 @@ button,
 }
 
 .btn-primary {
-  background: var(--orange);
+  background: var(--orange-deep);
   color: #fff;
   box-shadow: 0 8px 20px -6px rgba(252, 114, 6, 0.55);
 }
@@ -139,13 +136,13 @@ button,
 
 .btn-ghost {
   background: transparent;
-  color: var(--navy);
+  color: var(--blue-deep);
   border: 1.5px solid var(--navy-100);
 }
 
 .btn-ghost:hover {
-  border-color: var(--navy-600);
-  background: var(--navy-50);
+  border-color: var(--blue-mid);
+  background: var(--blue-gray);
 }
 
 .btn-light {

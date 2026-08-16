@@ -1,0 +1,39 @@
+/* src/components/Cover/Cover.css */
+
+/* Animación del indicador de scroll vertical */
+@keyframes bounceScroll {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(6px);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-scroll {
+  animation: bounceScroll 1.8s infinite ease-in-out;
+}
+
+/* Transición con curvas Bézier para el desplazamiento vertical de la portada */
+#landing-cover {
+  will-change: transform, opacity;
+  transition:
+    transform 0.9s cubic-bezier(0.76, 0, 0.24, 1),
+    opacity 0.9s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* Clase dinámica aplicada al descartarse */
+#landing-cover.cover-dismissed {
+  transform: translateY(-100vh);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+/* Forzar scroll bloqueado al renderizar la portada */
+body.overflow-hidden {
+  overflow: hidden !important;
+  height: 100vh;
+}

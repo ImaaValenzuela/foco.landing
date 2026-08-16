@@ -21,17 +21,17 @@ chore(ci): simplificar workflow de CI
 
 ### Tipos permitidos
 
-| Tipo | Uso |
-|---|---|
-| `feat` | Nueva funcionalidad |
-| `fix` | Corrección de errores |
-| `docs` | Cambios en documentación |
+| Tipo       | Uso                                          |
+| ---------- | -------------------------------------------- |
+| `feat`     | Nueva funcionalidad                          |
+| `fix`      | Corrección de errores                        |
+| `docs`     | Cambios en documentación                     |
 | `refactor` | Cambios de código sin cambiar comportamiento |
-| `test` | Agregar o modificar tests |
-| `chore` | Tareas de mantenimiento (CI, deps, config) |
-| `style` | Formato, espacios, estilos (no lógicos) |
-| `build` | Cambios de build o dependencias |
-| `perf` | Mejoras de rendimiento |
+| `test`     | Agregar o modificar tests                    |
+| `chore`    | Tareas de mantenimiento (CI, deps, config)   |
+| `style`    | Formato, espacios, estilos (no lógicos)      |
+| `build`    | Cambios de build o dependencias              |
+| `perf`     | Mejoras de rendimiento                       |
 
 ### Reglas
 

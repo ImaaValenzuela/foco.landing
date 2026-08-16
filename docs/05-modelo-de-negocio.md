@@ -73,7 +73,6 @@ FOCO adopta el modelo **Freemium con límite de almacenamiento** (no de tiempo),
 - **Comparativa:** Por debajo del precio de Notion Pro ($10 USD), Evernote Personal ($10.99 USD)
 - **Posicionamiento:** Precio diferencial que destaca FOCO como la alternativa accesible y visual
 
-
 ---
 
 ## 4. Flujo de Conversión Free → Pro

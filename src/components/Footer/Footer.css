@@ -46,7 +46,7 @@ footer {
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--navy);
+  color: var(--blue-deep);
   margin-bottom: 14px;
 }
 
@@ -58,7 +58,7 @@ footer {
 }
 
 .foot-col a:hover {
-  color: var(--navy);
+  color: var(--blue-deep);
 }
 
 .foot-bottom {
