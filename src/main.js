@@ -4,6 +4,7 @@
 // =========================================================
 
 // Importación de componentes de la aplicación (Arquitectura de carpetas autocontenidas)
+import './components/Cover/Cover.js';
 import './components/Header/Header.js';
 import './components/Hero/Hero.js';
 import './components/Problem/Problem.js';
