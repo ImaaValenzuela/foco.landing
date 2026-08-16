@@ -16,6 +16,8 @@ export default [
         console: 'readonly',
         HTMLElement: 'readonly',
         customElements: 'readonly',
+        sessionStorage: 'readonly',
+        setTimeout: 'readonly',
       },
     },
     rules: {
