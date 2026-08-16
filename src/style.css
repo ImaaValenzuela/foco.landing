@@ -4,15 +4,15 @@
 
 :root {
   /* --- Azul de marca --- */
-  --blue-deep: #22298A;
-  --blue-accent: #7C83DE;
-  --blue-mid: #5966B2;
-  --blue-light: #C6C9F1;
-  --blue-gray: #DDE2F2;
+  --blue-deep: #22298a;
+  --blue-accent: #7c83de;
+  --blue-mid: #5966b2;
+  --blue-light: #c6c9f1;
+  --blue-gray: #dde2f2;
 
   /* --- Naranja de marca --- */
-  --orange-deep: #FC7206;
-  --orange-accent: #FDA35D;
+  --orange-deep: #fc7206;
+  --orange-accent: #fda35d;
   --orange-mid: #ff9d54;
   --orange-light: #ffcda0;
   --orange-gray: #fff1e4;

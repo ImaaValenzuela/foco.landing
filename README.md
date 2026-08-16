@@ -101,7 +101,6 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) (versión 18 o supe
    cd foco.landing
    ```
 
-
 2. **Instalar las dependencias de desarrollo:**
 
    ```bash

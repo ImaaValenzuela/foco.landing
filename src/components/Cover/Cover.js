@@ -20,9 +20,10 @@ class FocoCover extends HTMLElement {
     }
 
     // Configurar atributos estructurales de la etiqueta <foco-cover>
-    this.id = "landing-cover";
-    this.className = "fixed inset-0 z-[100] flex flex-col justify-between items-center bg-gradient-to-br from-[#FDA35D] via-[#FC7206] to-[#22298A] p-6 text-white overflow-hidden block";
-    
+    this.id = 'landing-cover';
+    this.className =
+      'fixed inset-0 z-[100] flex flex-col justify-between items-center bg-gradient-to-br from-[#FDA35D] via-[#FC7206] to-[#22298A] p-6 text-white overflow-hidden block';
+
     // Inyectar el marcado HTML semántico
     this.innerHTML = `
         <style>
@@ -380,7 +381,8 @@ class FocoCover extends HTMLElement {
       const touchEndY = e.touches[0].clientY;
       const diffY = touchStartY - touchEndY;
 
-      if (diffY > 50) { // Umbral de 50px para deslizar hacia arriba
+      if (diffY > 50) {
+        // Umbral de 50px para deslizar hacia arriba
         dismissCover();
       }
     }
