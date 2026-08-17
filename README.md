@@ -1,5 +1,9 @@
 # 🌐 F.O.C.O — Landing Page (`foco.landing`)
 
+## Flujo de ramas
+
+`main` es producción y despliegue; `develop` es integración/staging. Cada funcionalidad nace desde `develop` en una rama `feat/...`, `fix/...` o equivalente y su PR apunta a `develop`. Los releases se promueven de `develop` a `main`.
+
 Este repositorio contiene el código fuente de la landing page comercial de **F.O.C.O** (Filtro Operativo contra el Caos y la Omisión), el segundo cerebro visual que ayuda a estudiantes y profesionales a ordenar su caos mental en un tablero intuitivo.
 
 La landing page está optimizada para la conversión, el posicionamiento en motores de búsqueda (SEO) y tiempos de carga ultrarrápidos utilizando herramientas de desarrollo modernas.
