@@ -285,7 +285,7 @@ class FocoCover extends HTMLElement {
             <!-- Botón principal (CTA). El href="#" es un placeholder: la URL real
                 se setea más abajo, en el <script>, para tenerla en un solo lugar
                 fácil de encontrar y editar. -->
-            <a class="cta" href="#" id="app-link" aria-label="Ingresar a la App F.O.C.O">
+            <a class="cta" href="https://focobeta.vercel.app/" id="app-link" aria-label="Ingresar a la App F.O.C.O">
                 Ingresar a la App
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14M13 5l7 7-7 7"/>
@@ -300,7 +300,7 @@ class FocoCover extends HTMLElement {
         <footer class="hint">F.O.C.O · Foco Operativo contra el Caos y la Omisión</footer>
 
         <script>
-        document.getElementById('app-link').setAttribute('href', 'https://app.foco.xyz');
+        document.getElementById('app-link').setAttribute('href', 'https://focobeta.vercel.app/');
         </script>
     `;
 

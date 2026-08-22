@@ -17,7 +17,7 @@ export class FocoCtaFinal extends HTMLElement {
             <h2>Dejá de buscar tus propias ideas.</h2>
             <p>Empezá gratis hoy y armá tu primer tablero en menos de cinco minutos.</p>
             <div class="hero-ctas">
-              <a href="#" class="btn btn-light">Crear mi cuenta gratis →</a>
+              <a href="https://focobeta.vercel.app/" class="btn btn-light">Crear mi cuenta gratis →</a>
             </div>
           </div>
         </div>

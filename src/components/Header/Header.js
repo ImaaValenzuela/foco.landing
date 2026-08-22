@@ -25,8 +25,8 @@ export class FocoHeader extends HTMLElement {
             <li><a href="#planes">Planes</a></li>
           </ul>
           <div class="nav-cta">
-            <a href="#" class="nav-login">Iniciar sesión</a>
-            <a href="#planes" class="btn btn-primary">Probar gratis</a>
+            <a href="https://focobeta.vercel.app/" class="nav-login">Iniciar sesión</a>
+            <a href="https://focobeta.vercel.app/" class="btn btn-primary">Probar gratis</a>
           </div>
           <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
             <span></span><span></span><span></span>
